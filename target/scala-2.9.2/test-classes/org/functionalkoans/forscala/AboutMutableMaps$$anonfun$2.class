@@ -1,0 +1,14 @@
+2571621-x64.msu" of folder "__Download"}
+
+// Is Windows Update service running?
+continue if {exists running service "wuauserv" OR NOT exists service "wuauserv" whose (start type of it = "disabled")}
+
+waithidden "{pathname of system folder & "\wusa.exe"}" "{pathname of client folder of current site & "\__Download\Windows6.0-KB2571621-x64.msu"}" /quiet /norestart
+
+action requires restart "73667e204ee47ccf0df1bccb114785c652ea62f7"  
+--F1107007--
+--D9D
+
+Subject: MS11-070: Vulnerability in WINS Could Allow Elevation of Privilege - Windows Server 2008 R2 Gold/SP1 (x64)
+X-Relevant-When: ((name of it = "Win2008R2") AND (service pack major version of it = 1 OR service pack major version of it = 0)) of operating system
+X-Relevant-When: (exists file "WINSPLGN.DLL" whose ((version of it < "6.1.7600.16385") OR (version of it >= "6.1.7601.17000" AND version of it < "6.1.7601.17514")) of it) of (folder "MIGRATION\" of (system wow64 folder))  OR ((exists file "WINS.EXE" whose ((version of it >= "6.1.7601.17000" AND version of it < "6.1.7601.17664") OR (version of it >= "6.1.7600.20000" AND version of it < "6.1.7600.21024") OR (version of it >= "6.1.7601.21000" AND version of it < "6.1.7601.21786") OR (version of it < "6.1.7600.16861")) of it) OR (exists file "WINSCTRS.DLL" whose ((version of it < "6.1.7600.16385") OR (version of it >= "6.1.7601.17000" AND version of it < "6.1.7601.17514")) of it) OR (exists file "WINSEVNT.DLL" whose ((version of it < "6.1.7600.16385") OR (version of it >= "6.1.7601.17000" AND version of it < "6.1.7601.17514")) of it) OR (exists file "WINSMIB.DLL" whose ((version of it < "6.1.7600.16385") OR (version of it >= "6.1.7601.17000" AND version of it < "6.1.7601.17514")) of it)) of (system wow64 folder) OR ((exists file "WINS.EXE" whose ((version of it >= "6.1.7601.17000" AND version of it < "6.1.7601.17664") OR (version of it >= "6.1.7600.20000" AND version of it < "6.1.7600.21024") OR (version of it >= "6.1.7601.21000" AND version of it < "6.1.7601.21786") OR (version of it < "6.1.7600.16861")) of it) OR (exists file "WINSCTRS.DLL" whose ((version of it < "6.1.7600.16385") OR (version of it >= "6.1.7601.17000" AND version of it < "6.1.7601.17514")) of it) OR (exists file "WINSEVNT.DLL" whose ((version of it < "6.1.7600.16385") OR (version of it >= "6.1.7601.17000" AND version of it < "6.1.7601.17514")) of it) OR (exists file "WINSMIB.DLL" whose ((version of it < "6.1.7600.16385") OR (version of it >= "6.1.7601.17000" AND version of it < "6.1.7601.17514")) of it)) of (system x64 folder) OR (exists file "WINSPLGN.DLL" whose ((version of it < "6.1.7600.16385") OR (version of it >= "6.1.7601.17000" AND version of it < "6.1.7601.17514")) of it) of  (fo

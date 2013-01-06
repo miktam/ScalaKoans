@@ -1,0 +1,7 @@
+val a
+console
+exit
+test:compile
+~test-only org.functionalkoans.forscala.Koans
+u
+~test-only org.functionalkoans.forscala.Koans

@@ -1,0 +1,11 @@
+[debug] Starting sandboxed run...
+[debug] Waiting for threads to exit or System.exit to be called.
+[debug] Waiting for thread run-main to exit
+[info] Starting scala interpreter...
+[debug]   Boot classpath: c:\Program Files\Java\jdk1.7.0_07\jre\lib\resources.jar;c:\Program Files\Java\jdk1.7.0_07\jre\lib\rt.jar;c:\Program Files\Java\jdk1.7.0_07\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.7.0_07\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.7.0_07\jre\lib\jce.jar;c:\Program Files\Java\jdk1.7.0_07\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.7.0_07\jre\lib\jfr.jar;c:\Program Files\Java\jdk1.7.0_07\jre\classes;C:\Users\aak057\.sbt\boot\scala-2.9.2\lib\scala-library.jar
+[debug]   Classpath: C:\DEV\SCALA\dmarsh-scalakoansexercises-12cbe683d167\target\scala-2.9.2\classes;C:\DEV\SCALA\dmarsh-scalakoansexercises-12cbe683d167\lib\junit-4.8.jar;C:\DEV\SCALA\dmarsh-scalakoansexercises-12cbe683d167\lib\scalatest_2.9.2-1.8.jar;C:\Users\aak057\.sbt\boot\scala-2.9.2\lib\scala-compiler.jar;C:\Users\aak057\.sbt\boot\scala-2.9.2\lib\jansi.jar;C:\Users\aak057\.sbt\boot\scala-2.9.2\lib\jline.jar
+[info] 
+[debug] 	Thread run-main exited.
+[debug] Interrupting remaining threads (should be all daemons).
+[debug] Sandboxed run complete..
+[debug] Exited with code 0

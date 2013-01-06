@@ -1,0 +1,29 @@
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set()
+[debug] 	added: Set()
+[debug] 	modified: Set(C:\DEV\SCALA\dmarsh-scalakoansexercises-12cbe683d167\src\test\scala\org\functionalkoans\forscala\AboutCaseClasses.scala)
+[debug] Removed products: Set()
+[debug] Modified external sources: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated sources: Set(C:\DEV\SCALA\dmarsh-scalakoansexercises-12cbe683d167\src\test\scala\org\functionalkoans\forscala\AboutCaseClasses.scala)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] Initially invalidated: Set(C:\DEV\SCALA\dmarsh-scalakoansexercises-12cbe683d167\src\test\scala\org\functionalkoans\forscala\AboutCaseClasses.scala)
+[info] Compiling 1 Scala source to C:\DEV\SCALA\dmarsh-scalakoansexercises-12cbe683d167\target\scala-2.9.2\test-classes...
+[debug] Interfacing (CompilerInterface) with Scala compiler version 2.9.2
+[debug] Calling Scala compiler with arguments  (CompilerInterface):
+[debug] 	-deprecation
+[debug] 	-unchecked
+[debug] 	-d
+[debug] 	C:\DEV\SCALA\dmarsh-scalakoansexercises-12cbe683d167\target\scala-2.9.2\test-classes
+[debug] 	-bootclasspath
+[debug] 	c:\Program Files\Java\jdk1.7.0_07\jre\lib\resources.jar;c:\Program Files\Java\jdk1.7.0_07\jre\lib\rt.jar;c:\Program Files\Java\jdk1.7.0_07\jre\lib\sunrsasign.jar;c:\Program Files\Java\jdk1.7.0_07\jre\lib\jsse.jar;c:\Program Files\Java\jdk1.7.0_07\jre\lib\jce.jar;c:\Program Files\Java\jdk1.7.0_07\jre\lib\charsets.jar;c:\Program Files\Java\jdk1.7.0_07\jre\lib\jfr.jar;c:\Program Files\Java\jdk1.7.0_07\jre\classes;C:\Users\aak057\.sbt\boot\scala-2.9.2\lib\scala-library.jar
+[debug] 	-classpath
+[debug] 	C:\DEV\SCALA\dmarsh-scalakoansexercises-12cbe683d167\target\scala-2.9.2\test-classes;C:\DEV\SCALA\dmarsh-scalakoansexercises-12cbe683d167\target\scala-2.9.2\classes;C:\DEV\SCALA\dmarsh-scalakoansexercises-12cbe683d167\lib\junit-4.8.jar;C:\DEV\SCALA\dmarsh-scalakoansexercises-12cbe683d167\lib\scalatest_2.9.2-1.8.jar;C:\DEV\SCALA\dmarsh-scalakoansexercises-12cbe683d167\lib_managed\jars\org.scalatest\scalatest_2.9.2\scalatest_2.9.2-1.8.jar
+[debug] 	C:\DEV\SCALA\dmarsh-scalakoansexercises-12cbe683d167\src\test\scala\org\functionalkoans\forscala\AboutCaseClasses.scala
+[debug] 	Invalidated direct: Set()
+[debug] Incrementally invalidated: Set()

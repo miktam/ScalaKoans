@@ -1,0 +1,118 @@
+[info] Koans:
+[info] AboutAsserts:
+[info] - asserts can take a boolean argument
+[info] - asserts can include a message
+[info] - true and false values can be compared with should matchers
+[info] - booleans in asserts can test equality
+[info] - sometimes we expect you to fill in the values
+[info] AboutValAndVar:
+[info] - vars may be reassigned
+[info] - vals may not be reassigned
+[info] AboutClasses:
+[info] - val parameters in class definition define getter
+[info] - var parameters in class definition define getter and setter
+[info] - fields defined internally are private to class
+[info] AboutRange:
+[info] - Range are not inclusive at end of range
+[info] - Range can specify increment
+[info] - Range can indicate inclusion
+[info] - Range can specify to include value
+[info] AboutTuples:
+[info] - Tuples can be created easily
+[info] - Tuple items may be accessed individually
+[info] - Tuples may be of mixed type
+[info] AboutLists:
+[info] - Nil lists are identical, even of different types
+[info] - Lists are easily created
+[info] - Eq tests identity (same object)
+[info] - == tests equality (same content)
+[info] - Lists can be accessed via head and tail
+[info] - Lists can accessed at random
+[info] - Lists are immutable
+[info] - Lists have many useful methods
+[info] - Functions over lists can use _ as shorthand
+[info] - Functions over lists can use () instead of {}
+[info] - Lists can be 'reduced' with a mathematical operation
+[info] - Foldleft is like reduce, but with an explicit starting value
+[info] - You can create a list from a range
+[info] - Lists reuse their tails
+[info] AboutMaps:
+[info] - Maps can be created easily
+[info] - Maps contain distinct pairings
+[info] - Maps can be added to easily
+[info] - Map values can be iterated
+[info] - Maps insertion with duplicate key updates previous entry with subsequent value
+[info] - Map keys may be of mixed type
+[info] - Mixed type values can be added to a map 
+[info] - Maps may be accessed
+[info] - Map elements can be removed easily
+[info] - Accessing a map by key results in an exception if key is not found
+[info] - Map elements can be removed in multiple
+[info] - Map elements can be removed with a tuple
+[info] - Attempted removal of nonexistent elements from a map is handled gracefully
+[info] - Map equivalency is independent of order
+[info] AboutSets:
+[info] - Sets can be created easily
+[info] - Sets contain distinct values
+[info] - Sets can be added to easily
+[info] - Sets may be of mixed type
+[info] - Sets may be accessed
+[info] - Set elements can be removed easily
+[info] - Set elements can be removed in multiple
+[info] - Set elements can be removed with a tuple
+[info] - Attempted removal of nonexistent elements from a set is handled gracefully
+[info] - Sets can be iterated easily
+[info] - Two sets can be intersected easily
+[info] - Two sets can be joined as their union easily
+[info] - A set is either a subset of another set or it isn't
+[info] - The difference between two sets can be obtained easily
+[info] - Set equivalency is independent of order
+[info] AboutMutableMaps:
+[info] - Mutable maps can be created easily
+[info] - Mutable maps can have elements removed
+[info] - Mutable maps can have tuples of elements removed
+[info] - Mutable maps can have tuples of elements added
+[info] - Mutable maps can have Lists of elements added
+[info] - Mutable maps can have Lists of elements removed
+[info] - Mutable maps can be cleared
+[info] AboutMutableSets:
+[info] - Mutable sets can be created easily
+[info] - Mutable sets can have elements removed
+[info] - Mutable sets can have tuples of elements removed
+[info] - Mutable sets can have tuples of elements added
+[info] - Mutable sets can have Lists of elements added
+[info] - Mutable sets can have Lists of elements removed
+[info] - Mutable sets can be cleared
+[info] AboutFormatting:
+[info] - Character Literals can be an a single character
+[info] - Character Literals can be an escape sequence, including octal or hexidecimal
+[info] AboutPatternMatching:
+[info] - Pattern matching returns something
+[info] - Pattern matching can return complex somethings
+[info] - Pattern matching can match complex expressions
+[info] - Pattern matching can wildcard parts of expressions
+[info] - Pattern matching can substitute parts of expressions
+[info] AboutCaseClasses:
+[info] - Case classes have an automatic equals method that works
+[info] - Case classes have an automatic hashcode method that works
+[info] - Case classes have a convenient way they can be created
+[info] - Case classes have a convenient toString method defined
+[info] - Case classes have automatic properties
+[info] - Case classes can have mutable properties
+[info] - Safer alternatives exist for altering case classes
+[info] - Case classes have default and named parameters
+[info] - Case classes can be disassembled to their constituent parts as a tuple
+[info] AboutOptions:
+[info]   + ***************************************** 
+[info]   + ***************************************** 
+[info]   +  
+[info]   +  
+[info]   +  
+[info]   + Please meditate on koan "Option can have one of two values - Some or None" of suite "AboutOptions" 
+[info]   +  
+[info]   +  
+[info]   +  
+[info]   + ***************************************** 
+[info]   + ***************************************** 
+[info] Info Provided - AboutOptions
+[info] Info Provided - Koans
