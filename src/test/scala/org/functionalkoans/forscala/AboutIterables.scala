@@ -11,7 +11,7 @@ class AboutIterables extends KoanSuite with ShouldMatchers {
     val list = List(3, 5, 9, 11, 15, 19, 21)
     val it = list.iterator
     if (it.hasNext) {
-      it.next should be(__)
+      it.next should be(__) 
     }
   }
 
